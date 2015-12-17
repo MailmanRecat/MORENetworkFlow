@@ -194,6 +194,8 @@
             _MOREDataWiFiView.debugProgressPercentage.text = [NSString stringWithFormat:@"%f MB", model.progressWiFiPercentage];
             _MOREDataWiFiView.debugProgressTarget.text = [NSString stringWithFormat:@"%ld MB", model.progressWiFiTarget];
             
+            _MOREDataWiFiView.progressMin.text = _MOREDataWiFiView.debugProgressCurrent.text;
+            
             _MOREDateWWANView.debugDataRecevied.text = [NSString stringWithFormat:@"%ld MB", autoWWANR / 1024];
             _MOREDateWWANView.debugDataReceviedStorage.text = [NSString stringWithFormat:@"%ld MB", [UISetting getWWANReceviedOffset] / 1024];
             _MOREDateWWANView.debugDataSent.text = [NSString stringWithFormat:@"%ld MB", autoWWANS / 1024];
@@ -203,6 +205,8 @@
             _MOREDateWWANView.debugProgressCurrent.text = [NSString stringWithFormat:@"%ld MB", (NSUInteger)(WWANA / 1024.0 - model.progressWWANCache)];
             _MOREDateWWANView.debugProgressPercentage.text = [NSString stringWithFormat:@"%f MB", model.progressWWANPercentage];
             _MOREDateWWANView.debugProgressTarget.text = [NSString stringWithFormat:@"%ld MB", model.progressWWANTarget];
+            
+            _MOREDateWWANView.progressMin.text = _MOREDateWWANView.debugProgressCurrent.text;
         }
         
     });

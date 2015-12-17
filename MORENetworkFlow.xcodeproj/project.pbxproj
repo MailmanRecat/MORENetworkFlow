@@ -102,8 +102,8 @@
 		E4201E631C002C43006E4F7C /* MOREAlertMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOREAlertMaskView.m; sourceTree = "<group>"; };
 		E4201E651C002FE5006E4F7C /* MOREAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOREAlertView.h; sourceTree = "<group>"; };
 		E4201E661C002FE5006E4F7C /* MOREAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOREAlertView.m; sourceTree = "<group>"; };
-		E4201E721C00811A006E4F7C /* MOREStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOREStack.h; sourceTree = "<group>"; };
-		E4201E731C00811B006E4F7C /* MOREStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOREStack.m; sourceTree = "<group>"; };
+		E4201E721C00811A006E4F7C /* MOREStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOREStack.h; path = MORENetworkFlow/MOREStack.h; sourceTree = "<group>"; };
+		E4201E731C00811B006E4F7C /* MOREStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOREStack.m; path = MORENetworkFlow/MOREStack.m; sourceTree = "<group>"; };
 		E4201E751C008144006E4F7C /* MOREAlertStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOREAlertStack.h; sourceTree = "<group>"; };
 		E4201E761C008144006E4F7C /* MOREAlertStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOREAlertStack.m; sourceTree = "<group>"; };
 		E44D7CF91BE8414700B1A99D /* GoogleInboxLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleInboxLoadingView.h; sourceTree = "<group>"; };
@@ -269,8 +269,6 @@
 				E4201E2E1BFC2B1D006E4F7C /* MOREDataUIView */,
 				E4C9B8B41BBEE348008E9018 /* AppDelegate.h */,
 				E4C9B8B51BBEE348008E9018 /* AppDelegate.m */,
-				E4201E721C00811A006E4F7C /* MOREStack.h */,
-				E4201E731C00811B006E4F7C /* MOREStack.m */,
 				E4201E471BFD6533006E4F7C /* MOREPageView.h */,
 				E4201E481BFD6533006E4F7C /* MOREPageView.m */,
 				E4C9B8B71BBEE348008E9018 /* ViewController.h */,
@@ -363,6 +361,8 @@
 				E44D7CFA1BE8414700B1A99D /* GoogleInboxLoadingView.m */,
 				E4201E3E1BFC64B3006E4F7C /* MOREQueue.h */,
 				E4201E3F1BFC64B3006E4F7C /* MOREQueue.m */,
+				E4201E721C00811A006E4F7C /* MOREStack.h */,
+				E4201E731C00811B006E4F7C /* MOREStack.m */,
 			);
 			name = MORE;
 			sourceTree = "<group>";
